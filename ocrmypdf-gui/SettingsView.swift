@@ -40,6 +40,7 @@ struct GeneralSettingsView: View {
     @AppStorage("rotatePages") var rotatePages = true
     @AppStorage("forceOCR") var forceOCR = true
     @AppStorage("clean") var clean = true
+    @AppStorage("compressPDF") var compressPDF = false
     @AppStorage("outputFolder") var outputFolder: String = ""
     @AppStorage("OCRLanguageOptions") var oOCRLanguageOptions = OCRLanguageOptions()
     
@@ -59,6 +60,8 @@ struct GeneralSettingsView: View {
                 Toggle("Force OCR", isOn: $forceOCR)
                     .toggleStyle(.switch)
                 Toggle("Clean", isOn: $clean)
+                    .toggleStyle(.switch)
+                Toggle("Compress PDF", isOn: $compressPDF)
                     .toggleStyle(.switch)
                 
                 Divider()
@@ -104,6 +107,7 @@ struct GeneralSettingsView: View {
         rotatePages = true
         forceOCR = true
         clean = true
+        compressPDF = false
         outputFolder = ""
         oOCRLanguageOptions.selected = ["eng", "deu"]
     }

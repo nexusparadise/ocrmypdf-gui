@@ -2,7 +2,7 @@
 
 A modern macOS GUI application for OCRMyPDF, providing an intuitive interface to perform OCR (Optical Character Recognition) on PDF files with drag-and-drop support and batch processing.
 
-**Version 0.7** | Requires macOS 13.5+
+**Version 0.8** | Requires macOS 13.5+
 
 ![Screenshot](Screenshot.png)
 
@@ -18,6 +18,7 @@ A modern macOS GUI application for OCRMyPDF, providing an intuitive interface to
   - Correct page rotation (enabled by default)
   - Force OCR on all pages (enabled by default)
   - Clean pages (enabled by default)
+  - Compress PDF (reduce file size with lossy compression)
   - Output to PDF/A format (enabled by default)
   - In-place processing (overwrite original files)
   - Custom output folder selection
@@ -93,6 +94,7 @@ Alternatively, if you're building from source:
 - **Correct Page Rotation**: Correct page rotation based on detected orientation (enabled by default)
 - **Force OCR**: Perform OCR on all pages, even if they already contain text (enabled by default)
 - **Clean**: Clean and denoise pages before OCR (enabled by default)
+- **Compress PDF**: Compress PDF files to reduce file size using lossy JPEG/JPEG2000 optimization (disabled by default)
 - **Output PDF/A**: Create PDF/A compliant output files (enabled by default)
 - **In Place**: Overwrite original files instead of creating new ones with " ocr" suffix (disabled by default)
 - **Output Folder**: Choose where processed files are saved (defaults to Downloads)

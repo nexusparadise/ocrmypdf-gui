@@ -27,6 +27,7 @@ class OCRTask: ObservableObject, DropDelegate {
     @AppStorage("rotatePages") var rotatePages = true
     @AppStorage("forceOCR") var forceOCR = true
     @AppStorage("clean") var clean = true
+    @AppStorage("compressPDF") var compressPDF = false
     @AppStorage("outputFolder") var outputFolder: String = ""
     @AppStorage("OCRLanguageOptions") var oOCRLanguageOptions = OCRLanguageOptions()
     
@@ -229,6 +230,12 @@ class OCRTask: ObservableObject, DropDelegate {
         // Clean - remove artifacts
         if (clean) {
             args.append("--clean")
+        }
+        
+        // Compress PDF - use optimize level 2 for compression
+        if (compressPDF) {
+            args.append("--optimize")
+            args.append("2")
         }
         
         let targetUrl = targetUrl(sourceUrl: sourceUrl, inPlace: inPlace)

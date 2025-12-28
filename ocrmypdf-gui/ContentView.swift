@@ -307,6 +307,7 @@ struct CompactSettingsView: View {
     @AppStorage("rotatePages") var rotatePages = true
     @AppStorage("forceOCR") var forceOCR = true
     @AppStorage("clean") var clean = true
+    @AppStorage("compressPDF") var compressPDF = false
     @AppStorage("OCRLanguageOptions") var oOCRLanguageOptions = OCRLanguageOptions()
     
     var body: some View {
@@ -323,6 +324,7 @@ struct CompactSettingsView: View {
                 CompactToggle(label: "Rotate Pages", isOn: $rotatePages)
                 CompactToggle(label: "Force OCR", isOn: $forceOCR)
                 CompactToggle(label: "Clean", isOn: $clean)
+                CompactToggle(label: "Compress", isOn: $compressPDF)
                 CompactToggle(label: "Correct Rotation", isOn: $correctPageRotation)
             }
             
