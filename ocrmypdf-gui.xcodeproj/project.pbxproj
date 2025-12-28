@@ -51,6 +51,7 @@
 		A5DROPDROP2961A0BC00248F79 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
 		BF2BB7E42F00306A00C4D231 /* ocrmypdf-gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocrmypdf-gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2BB7F52F00317400C4D231 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFEBE2312F00D7560030A98A /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		A5AD95B32949E7670066D90A = {
 			isa = PBXGroup;
 			children = (
+				BFEBE2312F00D7560030A98A /* Screenshot.png */,
 				BF2BB7F52F00317400C4D231 /* README.md */,
 				A5AD95BE2949E7670066D90A /* ocrmypdf-gui */,
 				A5AD95BD2949E7670066D90A /* Products */,

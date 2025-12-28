@@ -4,6 +4,8 @@ A modern macOS GUI application for OCRMyPDF, providing an intuitive interface to
 
 **Version 0.7** | Requires macOS 13.5+
 
+![Screenshot](Screenshot.png)
+
 ## Features
 
 - **Drag & Drop Support**: Easily process PDF files by dragging them into the app or clicking to select
