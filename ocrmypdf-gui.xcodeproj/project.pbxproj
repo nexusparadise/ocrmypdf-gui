@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A517063629645B3C004FF552 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517063529645B3C004FF552 /* SettingsView.swift */; };
+		A5AAB30429622BBE00248F77 /* OCRTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AAB30329622BBE00248F77 /* OCRTask.swift */; };
+		A5AD95C02949E7670066D90A /* ocrmypdf-gui.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD95BF2949E7670066D90A /* ocrmypdf-gui.swift */; };
+		A5AD95C22949E7670066D90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD95C12949E7670066D90A /* ContentView.swift */; };
+		A5AD95C82949E7680066D90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AD95C72949E7680066D90A /* Preview Assets.xcassets */; };
+		A5C0657129659C090066ACE5 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = A5C0657029659C090066ACE5 /* Collections */; };
+		A5C0657529659C090066ACE5 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = A5C0657429659C090066ACE5 /* OrderedCollections */; };
+		A5C5B239294E07C6005F0FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B238294E07C6005F0FD7 /* Assets.xcassets */; };
+		A5C5B23E294FB622005F0FD7 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5B23D294FB622005F0FD7 /* Shell.swift */; };
+		A5C5B24E29545DC4005F0FD7 /* MultiSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5B24D29545DC4005F0FD7 /* MultiSelectionView.swift */; };
+		A5C5B25029545E1F005F0FD7 /* MultiSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5B24F29545E1F005F0FD7 /* MultiSelector.swift */; };
+		A5C5B2522954667C005F0FD7 /* OCRLanguageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5B2512954667C005F0FD7 /* OCRLanguageOptions.swift */; };
+		A5DROPDROP2961A0BC00248F77 /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DROPDROP2961A0BC00248F79 /* DropZoneView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5990E75298FAEEC00A7FD1E /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A517063529645B3C004FF552 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A5AAB30329622BBE00248F77 /* OCRTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTask.swift; sourceTree = "<group>"; };
+		A5AD95BF2949E7670066D90A /* ocrmypdf-gui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ocrmypdf-gui.swift"; sourceTree = "<group>"; };
+		A5AD95C12949E7670066D90A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5AD95C52949E7680066D90A /* ocrmypdf-gui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ocrmypdf-gui.entitlements"; sourceTree = "<group>"; };
+		A5AD95C72949E7680066D90A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5C5B237294C8F11005F0FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5C5B238294E07C6005F0FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5C5B23D294FB622005F0FD7 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		A5C5B24D29545DC4005F0FD7 /* MultiSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectionView.swift; sourceTree = "<group>"; };
+		A5C5B24F29545E1F005F0FD7 /* MultiSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelector.swift; sourceTree = "<group>"; };
+		A5C5B2512954667C005F0FD7 /* OCRLanguageOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRLanguageOptions.swift; sourceTree = "<group>"; };
+		A5DROPDROP2961A0BC00248F79 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
+		BF2BB7E42F00306A00C4D231 /* ocrmypdf-gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocrmypdf-gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2BB7F52F00317400C4D231 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5AD95B92949E7670066D90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C0657129659C090066ACE5 /* Collections in Frameworks */,
+				A5C0657529659C090066ACE5 /* OrderedCollections in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5AAB2FA29603F3300248F77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5AD95B32949E7670066D90A = {
+			isa = PBXGroup;
+			children = (
+				BF2BB7F52F00317400C4D231 /* README.md */,
+				A5AD95BE2949E7670066D90A /* ocrmypdf-gui */,
+				A5AD95BD2949E7670066D90A /* Products */,
+				A5AAB2FA29603F3300248F77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5AD95BD2949E7670066D90A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BB7E42F00306A00C4D231 /* ocrmypdf-gui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5AD95BE2949E7670066D90A /* ocrmypdf-gui */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD95BF2949E7670066D90A /* ocrmypdf-gui.swift */,
+				A5AD95C12949E7670066D90A /* ContentView.swift */,
+				A517063529645B3C004FF552 /* SettingsView.swift */,
+				A5DROPDROP2961A0BC00248F79 /* DropZoneView.swift */,
+				A5C5B24F29545E1F005F0FD7 /* MultiSelector.swift */,
+				A5C5B24D29545DC4005F0FD7 /* MultiSelectionView.swift */,
+				A5AAB30329622BBE00248F77 /* OCRTask.swift */,
+				A5C5B2512954667C005F0FD7 /* OCRLanguageOptions.swift */,
+				A5C5B23D294FB622005F0FD7 /* Shell.swift */,
+				A5C5B238294E07C6005F0FD7 /* Assets.xcassets */,
+				A5C5B237294C8F11005F0FD7 /* Info.plist */,
+				A5AD95C52949E7680066D90A /* ocrmypdf-gui.entitlements */,
+				A5AD95C62949E7680066D90A /* Preview Content */,
+			);
+			path = "ocrmypdf-gui";
+			sourceTree = "<group>";
+		};
+		A5AD95C62949E7680066D90A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD95C72949E7680066D90A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5AD95BB2949E7670066D90A /* ocrmypdf-gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AD95E12949E7680066D90A /* Build configuration list for PBXNativeTarget "ocrmypdf-gui" */;
+			buildPhases = (
+				A5AD95B82949E7670066D90A /* Sources */,
+				A5AD95B92949E7670066D90A /* Frameworks */,
+				A5AD95BA2949E7670066D90A /* Resources */,
+				A5990E75298FAEEC00A7FD1E /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ocrmypdf-gui";
+			packageProductDependencies = (
+				A5C0657029659C090066ACE5 /* Collections */,
+				A5C0657429659C090066ACE5 /* OrderedCollections */,
+			);
+			productName = "ocrmypdf-gui";
+			productReference = BF2BB7E42F00306A00C4D231 /* ocrmypdf-gui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5AD95B42949E7670066D90A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A5AD95BB2949E7670066D90A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A5AD95B72949E7670066D90A /* Build configuration list for PBXProject "ocrmypdf-gui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5AD95B32949E7670066D90A;
+			packageReferences = (
+				A5C0656F29659C090066ACE5 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = A5AD95BD2949E7670066D90A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5AD95BB2949E7670066D90A /* ocrmypdf-gui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5AD95BA2949E7670066D90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C5B239294E07C6005F0FD7 /* Assets.xcassets in Resources */,
+				A5AD95C82949E7680066D90A /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5AD95B82949E7670066D90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AD95C02949E7670066D90A /* ocrmypdf-gui.swift in Sources */,
+				A5AD95C22949E7670066D90A /* ContentView.swift in Sources */,
+				A517063629645B3C004FF552 /* SettingsView.swift in Sources */,
+				A5DROPDROP2961A0BC00248F77 /* DropZoneView.swift in Sources */,
+				A5C5B25029545E1F005F0FD7 /* MultiSelector.swift in Sources */,
+				A5C5B24E29545DC4005F0FD7 /* MultiSelectionView.swift in Sources */,
+				A5AAB30429622BBE00248F77 /* OCRTask.swift in Sources */,
+				A5C5B2522954667C005F0FD7 /* OCRLanguageOptions.swift in Sources */,
+				A5C5B23E294FB622005F0FD7 /* Shell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5AD95DF2949E7680066D90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4T8C3J686S;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5AD95E02949E7680066D90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4T8C3J686S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A5AD95E22949E7680066D90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "ocrmypdf-gui/ocrmypdf-gui.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ocrmypdf-gui/Preview Content\"";
+				DEVELOPMENT_TEAM = H33UU5BCTZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ocrmypdf-gui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ocrmypdf-gui";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ralf-eisenreich.ocrmypdf-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A5AD95E32949E7680066D90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "ocrmypdf-gui/ocrmypdf-gui.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ocrmypdf-gui/Preview Content\"";
+				DEVELOPMENT_TEAM = H33UU5BCTZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ocrmypdf-gui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ocrmypdf-gui";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ralf-eisenreich.ocrmypdf-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5AD95B72949E7670066D90A /* Build configuration list for PBXProject "ocrmypdf-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AD95DF2949E7680066D90A /* Debug */,
+				A5AD95E02949E7680066D90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5AD95E12949E7680066D90A /* Build configuration list for PBXNativeTarget "ocrmypdf-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AD95E22949E7680066D90A /* Debug */,
+				A5AD95E32949E7680066D90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5C0656F29659C090066ACE5 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5C0657029659C090066ACE5 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5C0656F29659C090066ACE5 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		A5C0657429659C090066ACE5 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5C0656F29659C090066ACE5 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A5AD95B42949E7670066D90A /* Project object */;
+}

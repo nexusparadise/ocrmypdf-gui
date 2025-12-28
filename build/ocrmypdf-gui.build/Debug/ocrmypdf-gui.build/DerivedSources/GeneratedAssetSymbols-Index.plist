@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ralf/Library/CloudStorage/Dropbox/Development/ocrmypdf-gui/ocrmypdf-gui/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAppIconSvg</string>
+			<key>relativePath</key>
+			<string>./AppIcon.svg.imageset</string>
+			<key>swiftSymbol</key>
+			<string>appIconSvg</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ralf/Library/CloudStorage/Dropbox/Development/ocrmypdf-gui/ocrmypdf-gui/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHeaderSvg</string>
+			<key>relativePath</key>
+			<string>./Header.svg.imageset</string>
+			<key>swiftSymbol</key>
+			<string>headerSvg</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ralf/Library/CloudStorage/Dropbox/Development/ocrmypdf-gui/ocrmypdf-gui/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHeaderImageWhiteSvg</string>
+			<key>relativePath</key>
+			<string>./HeaderImage white.svg.imageset</string>
+			<key>swiftSymbol</key>
+			<string>headerImageWhiteSvg</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ralf/Library/CloudStorage/Dropbox/Development/ocrmypdf-gui/ocrmypdf-gui/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHeaderImageWhite2Svg</string>
+			<key>relativePath</key>
+			<string>./HeaderImage white2.svg.imageset</string>
+			<key>swiftSymbol</key>
+			<string>headerImageWhite2Svg</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ralf/Library/CloudStorage/Dropbox/Development/ocrmypdf-gui/ocrmypdf-gui/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHeaderImageSvg</string>
+			<key>relativePath</key>
+			<string>./HeaderImage.svg.imageset</string>
+			<key>swiftSymbol</key>
+			<string>headerImageSvg</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>
