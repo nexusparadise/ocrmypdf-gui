@@ -51,6 +51,14 @@
 		A5DROPDROP2961A0BC00248F79 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
 		BF2BB7E42F00306A00C4D231 /* ocrmypdf-gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocrmypdf-gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2BB7F52F00317400C4D231 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF9D5ADE2F01095E008508E0 /* ocrmypdf-gui.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = "ocrmypdf-gui.rb"; sourceTree = "<group>"; };
+		BF9D5AE02F01095E008508E0 /* commit_and_push.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = commit_and_push.sh; sourceTree = "<group>"; };
+		BF9D5AE12F01095E008508E0 /* HOMEBREW_CASK_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HOMEBREW_CASK_GUIDE.md; sourceTree = "<group>"; };
+		BF9D5AE22F01095E008508E0 /* HOMEBREW_PR_INSTRUCTIONS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HOMEBREW_PR_INSTRUCTIONS.md; sourceTree = "<group>"; };
+		BF9D5AE32F01095E008508E0 /* PR_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PR_TEMPLATE.md; sourceTree = "<group>"; };
+		BF9D5AE42F01095E008508E0 /* RELEASE_NOTES_v0.7.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE_NOTES_v0.7.md; sourceTree = "<group>"; };
+		BF9D5AE52F01095E008508E0 /* RELEASE_NOTES_v0.8.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE_NOTES_v0.8.md; sourceTree = "<group>"; };
+		BF9D5AE62F01095E008508E0 /* setup_homebrew_pr.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setup_homebrew_pr.sh; sourceTree = "<group>"; };
 		BFEBE2312F00D7560030A98A /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,14 @@
 		A5AD95B32949E7670066D90A = {
 			isa = PBXGroup;
 			children = (
+				BF9D5ADF2F01095E008508E0 /* Casks */,
+				BF9D5AE02F01095E008508E0 /* commit_and_push.sh */,
+				BF9D5AE12F01095E008508E0 /* HOMEBREW_CASK_GUIDE.md */,
+				BF9D5AE22F01095E008508E0 /* HOMEBREW_PR_INSTRUCTIONS.md */,
+				BF9D5AE32F01095E008508E0 /* PR_TEMPLATE.md */,
+				BF9D5AE42F01095E008508E0 /* RELEASE_NOTES_v0.7.md */,
+				BF9D5AE52F01095E008508E0 /* RELEASE_NOTES_v0.8.md */,
+				BF9D5AE62F01095E008508E0 /* setup_homebrew_pr.sh */,
 				BFEBE2312F00D7560030A98A /* Screenshot.png */,
 				BF2BB7F52F00317400C4D231 /* README.md */,
 				A5AD95BE2949E7670066D90A /* ocrmypdf-gui */,
@@ -119,6 +135,14 @@
 				A5AD95C72949E7680066D90A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF9D5ADF2F01095E008508E0 /* Casks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9D5ADE2F01095E008508E0 /* ocrmypdf-gui.rb */,
+			);
+			path = Casks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
