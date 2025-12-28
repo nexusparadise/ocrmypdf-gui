@@ -199,8 +199,8 @@ Free to use.
 
 ## Author
 
-Created by Ralf Eisenreich on December 27, 2025
-Icons from User PDDD (https://github.com/pddd/GUI4OCRMyPDF)
+- Created by Ralf Eisenreich on December 27, 2025.
+- Icons used from User PDDD (https://github.com/pddd/GUI4OCRMyPDF). Thank you!
 
 ## Contributing
 
